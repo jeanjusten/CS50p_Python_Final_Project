@@ -1,0 +1,8 @@
+Name,Grade,Qualified
+Harry,95,Qualified
+Ron,80,Qualified
+Hermione,100,Qualified
+Draco,97,Qualified
+Goyle,55,Not qualified
+Crabbe,35,Not qualified
+Dino Thomas,75.0,Qualified

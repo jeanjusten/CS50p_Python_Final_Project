@@ -1,0 +1,9 @@
+# Install Requirements
+pip install fpdf2
+pip install tabulate
+pip install rich
+
+# Other Requirements (Root Folder)
+# 1- A certificate sample file named "certificate-sample.png" in A4 format and landscape orientation
+# 2- A CSV file, named "students_list.txt"
+
