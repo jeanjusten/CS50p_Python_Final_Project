@@ -53,21 +53,24 @@ After the user inserts a name for the student, he will be prompted to insert a g
 
         Student,Grade,Qualified
         Harry,95,Qualified
-<br>
+  
 
 - ***spacing***(_string, color_):
 The purpose of ***spacing()*** is to manage the spacing between outputs and the main-menu, and print out program messages and alerts. It takes the string that is going to be formated and printed as its first argument, and the color of it(Default value is _"bright_white"_) as the second argument. The color options for customization can be acessed at [Rich Documentation](https://rich.readthedocs.io/en/stable/appendix/colors.html).
 <br>
 
-    **In this example:**
+**In this example:**
 
-        spacing("Hello, World!", "red1")
+    spacing("Hello, World!", "red1")
 
-    **The output would be:**<br>
+**The output would be: (In the color RED)** <br>
+
 <span style="color:red">
-        =============================================<br>
-        • Hello, World!<br>
-        =============================================<br>
+ 
+    =============================================
+    • Hello, World!
+    =============================================
+        
 </span><br>
 
 
@@ -80,26 +83,25 @@ This function takes a student name as its first argument, a date as its second a
 This function takes a list as its first argument, and a str as its second. It then returns a formated string with the header name, followed by the list length.
 
 
-        list1 = ["Draco", "Crabbe", "Goyle"]
+      list1 = ["Draco", "Crabbe", "Goyle"]
 
-        list_size(list1, "Mocking List")
+      list_size(list1, "Mocking List")
 
     **Output result:**
 
-        "Mocking List - 3 students found"
+      "Mocking List - 3 students found"
 
-<br>
 
 - ***new_student***(_name_):
 The _"new_student()"_ function acts as a formating tool for a new student name added to the list. It takes a student's name for argument and strips any aditional (or accidental) whitespaces in both start and end of the name, and it also title-case the student's name.
 
-        name = "  harry potter  "
+      name = "  harry potter  "
 
-        name = new_student(name)
+      name = new_student(name)
 
     **Outuput result:**
 
-        name = "Harry Potter"
+      name = "Harry Potter"
 
 
 ### 1.3 Libraries
@@ -243,7 +245,7 @@ This section will cover how you can customize the Certificate Generator to fit y
 ___
 ## 5. Links
 ### 5.1 Project Repository
-* [Certificate Generator's GitHub Repository]()
+* [Certificate Generator's GitHub Repository](https://github.com/jeanjusten/CS50P_Python-Final-Project)
 
 ### 5.2 Social Links
 * [Jean Justen's Github page](https://github.com/jeanjusten)
