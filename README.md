@@ -5,40 +5,40 @@ With this program you'll be able to generate a PDF certificate for a list of stu
 Check out the ***Table of Contents*** section to navigate through this documentation.
 ___
 ## Table of Contents
-* [1. Introduction](#1.-introduction)
-    - [1.1 Description](#1.1-description)
-    - [1.2 Functions](#1.2-functions)
-    - [1.3 Libraries](#1.2-libraries)
-    - [1.4 Additional Info](#1.4-additional-info)
-* [2. Video Demo](#2.-video-demo)
-    - [2.1 Youtube](#3.1-youtube)
-    - [2.2 Streamable](#3.2-streamable)
-* [3. Requirements](#3.-requirements)
-    - [3.1 Install Requirements](#3.1-install-requirements)
-    - [3.2 Other Requirements](#3.2-other-requirements)
-* [4. How to Use](#4.-how-to-use)
-    - [4.1 Getting Started](#4.1-getting-started)
-    - [4.2 Navigating](#4.2-navigating)
-    - [4.3 List Consulting](#4.3-list-consulting)
-    - [4.4 List Adding](#4.4-list-adding)
-    - [4.5 Generating a Certificate](#4.5-generating-a-certificate)
-    - [4.6 Exiting the Program](#4.6-exiting-the-program)
-    - [4.7 Customizing](#4.7-customizing)
-* [5. Links](#5.-links)
-    - [5.1. Project Repository](#5.1-project-repository)
-    - [5.2. Social Links](#5.2-social-links)
-    - [5.3. Libraries Links](#5.3-libraries-links)
-* [6. Etcetera](#6.-etcetera)
-    - [6.1 About](#6.1-about)
-    - [6.2 License](#6.2-license)
+- [1. Introduction](#introduction)
+  - [1.1 Description](#description)
+  - [1.2 Functions](#functions)
+  - [1.3 Libraries](#libraries)
+  - [1.4 Additional Info](#additional-info)
+- [2. Video Demo](#video-demo)
+  - [2.1 Youtube](#youtube)
+  - [2.2 Streamable](#streamable)
+- [3. Requirements](#requirements)
+  - [3.1 Install Requirements](#install-requirements)
+  - [3.2 Other Requirements](#other-requirements)
+- [4. How to Use](#how-to-use)
+  - [4.1 Getting Started](#getting-started)
+  - [4.2 Navigating](#navigating)
+  - [4.3 List Consulting](#list-consulting)
+  - [4.4 List Adding](#list-adding)
+  - [4.5 Generating a Certificate](#generating-a-certificate)
+  - [4.6 Exiting the Program](#exiting-the-program)
+  - [4.7 Customizing](#customizing)
+- [5. Links](#links)
+  - [5.1. Project Repository](#project-repository)
+  - [5.2. Social Links](#social-links)
+  - [5.3. Libraries Links](#libraries-links)
+- [6. Etcetera](#etcetera)
+  - [6.1 About](#about)
+  - [6.2 License](#license)
 ___
-## 1. Introduction
-### 1.1 Description
+## Introduction
+### Description
 Certificate Generator is a simple python based program that allows you to make a certificate in PDF format, branding a student name and desired date to the outputed file.<br>
 
 The program takes a CSV(comma separated values) file containing the name and grade of a student and, if he is qualified, outputs a certificate with the student's name and current(or any other) date.
 
-### 1.2 Functions
+### Functions
 Other than main function, Certificate Generator runs on other functions as well.<br>
 
 - ***is_qualified***(_grade_):
@@ -104,7 +104,7 @@ The _"new_student()"_ function acts as a formating tool for a new student name a
       name = "Harry Potter"
 
 
-### 1.3 Libraries
+### Libraries
 Certificate Generator uses a few Libraries that allow the program to run its core functions and enhance the user interface for a better experience. The libraries used are:
 
 - **fpdf2:**
@@ -118,26 +118,26 @@ Used in every printing you see in the program. It gives colors to the main-menu 
 
 
 
-### 1.4 Additional Info
+### Additional Info
 Although this version of the program outputs a pre-made certificate model **("certificate-sample.png")**, you can add your own certificate design to be outputed instead. The same is true for the grading system, which uses **70** as the grade threshold by default.<br>
 Check out **[4.7 Customizing](#4.7-Customizing)** section for more info on how to customize the code.
 ___
-## 2. Video Demo
+## Video Demo
 View the project in action.
 
-### 2.1 Youtube
+### Youtube
 Watch it on Youtube
 <https://youtu.be/09MscpB8rF8>
 
-### 2.2 Streamable
+### Streamable
 Watch it on Streamable
 <https://streamable.com/o6ryg4>
 
 ___
-## 3. Requirements
+## Requirements
 <p>Below, are the requirements listed for you to test this program.</p>
 
-### 3.1 Install Requirements
+### Install Requirements
 * ### Python<br>
 To run Certificate Generator, you'll need Python to be downloaded and installed in your computer.
 [Download Python latest version](https://www.python.org/downloads/)
@@ -160,20 +160,20 @@ You can install Rich with the following command in your console:
 
     pip install rich
 
-### 3.2 Other Requirements
+### Other Requirements
 You will need a CSV file called **"students_list.txt"** on the root folder. The file could contain student data or be completely empty.<br>
 The last requirement is a PNG sample of the certificate called **"certificate-sample.png"**, which must be on the root folder as well.
 
 Both aditional files are included in the project repository. Check out [Certificate Generator's GitHub Repository]() if you want to download them.
 
 ___
-## 4. How to Use
-### 4.1 Getting Started
+## How to Use
+### Getting Started
 To start the program, open your terminal and enter the command:
 
     python project.py
 
-### 4.2 Navigating
+### Navigating
 After the program starts running you will be presented to the main menu, where you are prompted to insert your command.<br>
 
 * Enter **1** to check your students list.<br>
@@ -183,7 +183,7 @@ After the program starts running you will be presented to the main menu, where y
 
 Any other value in the prompt will result in a error and the system will reprompt the user for a valid input.
 
-### 4.3 List Consulting
+### List Consulting
 By entering **"1"** in the main menu, the complete list will be displayed in your terminal.<br>
 The command prints all the students, one per line, with the following elements:<br>
 
@@ -195,13 +195,13 @@ The command prints all the students, one per line, with the following elements:<
 ¹ _The Student ID is given to the list based on the python's "***enum()***" function._<br>
 ² _The Student Qualification represents whether the student is qualified to receive a certificate or not. This element is automatically calculated based on the grade threshold (default value is **70**) of the **"is_qualified()"** function_<br>
 
-### 4.4 List Adding
+### List Adding
 By entering **"2"** in the main menu, you will be able to add a new student to your list.<br>The Program will prompt you for a student name first, and then a grade³.<br>
 If the input format is correct, the CSV file will automatically be updated.<br>
 
 ³ _The grade value must be in the **0-100** range, or the user will be reprompted._
 
-### 4.5 Generating a Certificate
+### Generating a Certificate
 By entering **"3"** in the main menu, you will be able to generate a certificate.<br>
 The complete students list will be printed in the terminal, with the qualified students being printed green, and the unqualified students being printed red. The program will then prompt the user for a student ID.<br>
 
@@ -211,11 +211,11 @@ After this, the certificate will be created in the root folder and a success mes
 ⁴ _The user must insert a valid student ID. Trying to insert a ID that are not in the list, or inputing a out-of-range value, will result in a error and the user will be sent back to the main menu._<br>
 ⁵ _The date can be set in any format the user chooses, as its registered as a **str**._
 
-### 4.6 Exiting the Program
+### Exiting the Program
 By entering **"4"** in the main menu, the program will be terminated.<br>
 Note that you can force-exit the program at any time by typing **CTRL+C** in your terminal.
 
-### 4.7 Customizing
+### Customizing
 This section will cover how you can customize the Certificate Generator to fit your needs.<br>
 
 - On the top of the coding file, you will find two variables. One for the default value for the grading function, and the other for the certificate sample.
@@ -243,24 +243,24 @@ This section will cover how you can customize the Certificate Generator to fit y
         certificate.cell(30,234,student,border=0,center="C",align="C")
 
 ___
-## 5. Links
-### 5.1 Project Repository
+## Links
+### Project Repository
 * [Certificate Generator's GitHub Repository](https://github.com/jeanjusten/CS50P_Python-Final-Project)
 
-### 5.2 Social Links
+### Social Links
 * [Jean Justen's Github page](https://github.com/jeanjusten)
 * [Jean Justen's LinkedIn page](https://www.linkedin.com/in/jeanjusten/)
 
-### 5.3 Libraries Links
+### Libraries Links
 * [fpdf2 documentation](https://pypi.org/project/fpdf2/)
 * [Tabulate documentation](https://pypi.org/project/tabulate/)
 * [Rich documentation](https://rich.readthedocs.io/en/stable/introduction.html)
 
 ___
-## 6. Etcetera
-### 6.1 About
+## Etcetera
+### About
 <p>The Certificate Generator is a program made by Jean Justen, and it was made as a final project for "CS50's Introduction with Python" course. The program was developed to put in use the many tools and concepts learned in the CS50P's Introduction to Python 9 weeks' course.<br>
 
-### 6.2 License
+### License
 You may use, copy, share and modify the code as you please. No credits needed.</p>
 ___
