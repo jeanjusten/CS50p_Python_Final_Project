@@ -1,5 +1,5 @@
 <!--Title Image-->
-![2024-02-0723-12-43-ezgif com-crop](https://github.com/jeanjusten/site_gm_shop/assets/156855412/74c7abf0-5907-4cf0-8c4c-9eb25f57796a)
+![certificate generator banner_1.gif](https://github.com/jeanjusten/CS50P_Python_Final_Project/blob/main/certificate%20generator%20banner_1.gif?raw=true)
 
  # :minidisc: CERTIFICATE GENERATOR v.1.0
 Welcome to the PDF Certificate Generator!
