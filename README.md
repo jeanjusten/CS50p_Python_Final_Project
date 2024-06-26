@@ -1,44 +1,46 @@
- ___
- # CERTIFICATE GENERATOR v.1.0
+<!--Title Image-->
+![2024-02-0723-12-43-ezgif com-crop](https://github.com/jeanjusten/site_gm_shop/assets/156855412/74c7abf0-5907-4cf0-8c4c-9eb25f57796a)
+
+ # :minidisc: CERTIFICATE GENERATOR v.1.0
 Welcome to the PDF Certificate Generator!
 With this program you'll be able to generate a PDF certificate for a list of students.
 Check out the ***Table of Contents*** section to navigate through this documentation.
-___
-## Table of Contents
-- [1. Introduction](#introduction)
-  - [1.1 Description](#description)
-  - [1.2 Functions](#functions)
-  - [1.3 Libraries](#libraries)
-  - [1.4 Additional Info](#additional-info)
-- [2. Video Demo](#video-demo)
-  - [2.1 Youtube](#youtube)
-  - [2.2 Streamable](#streamable)
-- [3. Requirements](#requirements)
-  - [3.1 Install Requirements](#install-requirements)
-  - [3.2 Other Requirements](#other-requirements)
-- [4. How to Use](#how-to-use)
-  - [4.1 Getting Started](#getting-started)
-  - [4.2 Navigating](#navigating)
-  - [4.3 List Consulting](#list-consulting)
-  - [4.4 List Adding](#list-adding)
-  - [4.5 Generating a Certificate](#generating-a-certificate)
-  - [4.6 Exiting the Program](#exiting-the-program)
-  - [4.7 Customizing](#customizing)
-- [5. Links](#links)
-  - [5.1. Project Repository](#project-repository)
-  - [5.2. Social Links](#social-links)
-  - [5.3. Libraries Links](#libraries-links)
-- [6. Etcetera](#etcetera)
-  - [6.1 About](#about)
-  - [6.2 License](#license)
-___
-## Introduction
-### Description
+
+## :large_orange_diamond: Table of Contents
+- [1. Introduction](#large_orange_diamond-introduction)
+  - [1.1 Description](#arrow_forward-description)
+  - [1.2 Functions](#arrow_forward-functions)
+  - [1.3 Libraries](#arrow_forward-libraries)
+  - [1.4 Additional Info](#arrow_forward-additional-info)
+- [2. Video Demo](#large_orange_diamond-video-demo)
+  - [2.1 Youtube](#arrow_forward-youtube)
+  - [2.2 Streamable](#arrow_forward-streamable)
+- [3. Requirements](#large_orange_diamond-requirements)
+  - [3.1 Install Requirements](#arrow_forward-install-requirements)
+  - [3.2 Other Requirements](#arrow_forward-other-requirements)
+- [4. How to Use](#large_orange_diamond-how-to-use)
+  - [4.1 Getting Started](#arrow_forward-getting-started)
+  - [4.2 Navigating](#arrow_forward-navigating)
+  - [4.3 List Consulting](#arrow_forward-list-consulting)
+  - [4.4 List Adding](#arrow_forward-list-adding)
+  - [4.5 Generating a Certificate](#arrow_forward-generating-a-certificate)
+  - [4.6 Exiting the Program](#arrow_forward-exiting-the-program)
+  - [4.7 Customizing](#arrow_forward-customizing)
+- [5. Links](#large_orange_diamond-links)
+  - [5.1. Project Repository](#arrow_forward-project-repository)
+  - [5.2. Social Links](#arrow_forward-social-links)
+  - [5.3. Libraries Links](#arrow_forward-libraries-links)
+- [6. Etcetera](#large_orange_diamond-etcetera)
+  - [6.1 About](#arrow_forward-about)
+  - [6.2 License](#arrow_forward-license)
+
+## :large_orange_diamond: Introduction
+### :arrow_forward: Description
 Certificate Generator is a simple python based program that allows you to make a certificate in PDF format, branding a student name and desired date to the outputed file.<br>
 
 The program takes a CSV(comma separated values) file containing the name and grade of a student and, if he is qualified, outputs a certificate with the student's name and current(or any other) date.
 
-### Functions
+### :arrow_forward: Functions
 Other than main function, Certificate Generator runs on other functions as well.<br>
 
 - ***is_qualified***(_grade_):
@@ -104,7 +106,7 @@ The _"new_student()"_ function acts as a formating tool for a new student name a
       name = "Harry Potter"
 
 
-### Libraries
+### :arrow_forward: Libraries
 Certificate Generator uses a few Libraries that allow the program to run its core functions and enhance the user interface for a better experience. The libraries used are:
 
 - **fpdf2:**
@@ -118,26 +120,25 @@ Used in every printing you see in the program. It gives colors to the main-menu 
 
 
 
-### Additional Info
+### :arrow_forward: Additional Info
 Although this version of the program outputs a pre-made certificate model **("certificate-sample.png")**, you can add your own certificate design to be outputed instead. The same is true for the grading system, which uses **70** as the grade threshold by default.<br>
 Check out **[4.7 Customizing](#4.7-Customizing)** section for more info on how to customize the code.
-___
-## Video Demo
+
+## :large_orange_diamond: Video Demo
 View the project in action.
 
-### Youtube
+### :arrow_forward: Youtube
 Watch it on Youtube
 <https://youtu.be/09MscpB8rF8>
 
-### Streamable
+### :arrow_forward: Streamable
 Watch it on Streamable
 <https://streamable.com/o6ryg4>
 
-___
-## Requirements
+## :large_orange_diamond: Requirements
 <p>Below, are the requirements listed for you to test this program.</p>
 
-### Install Requirements
+### :arrow_forward: Install Requirements
 * ### Python<br>
 To run Certificate Generator, you'll need Python to be downloaded and installed in your computer.
 [Download Python latest version](https://www.python.org/downloads/)
@@ -160,20 +161,19 @@ You can install Rich with the following command in your console:
 
     pip install rich
 
-### Other Requirements
+### :arrow_forward: Other Requirements
 You will need a CSV file called **"students_list.txt"** on the root folder. The file could contain student data or be completely empty.<br>
 The last requirement is a PNG sample of the certificate called **"certificate-sample.png"**, which must be on the root folder as well.
 
 Both aditional files are included in the project repository. Check out [Certificate Generator's GitHub Repository]() if you want to download them.
 
-___
-## How to Use
-### Getting Started
+## :large_orange_diamond: How to Use
+### :arrow_forward: Getting Started
 To start the program, open your terminal and enter the command:
 
     python project.py
 
-### Navigating
+### :arrow_forward: Navigating
 After the program starts running you will be presented to the main menu, where you are prompted to insert your command.<br>
 
 * Enter **1** to check your students list.<br>
@@ -183,7 +183,7 @@ After the program starts running you will be presented to the main menu, where y
 
 Any other value in the prompt will result in a error and the system will reprompt the user for a valid input.
 
-### List Consulting
+### :arrow_forward: List Consulting
 By entering **"1"** in the main menu, the complete list will be displayed in your terminal.<br>
 The command prints all the students, one per line, with the following elements:<br>
 
@@ -195,13 +195,13 @@ The command prints all the students, one per line, with the following elements:<
 ¹ _The Student ID is given to the list based on the python's "***enum()***" function._<br>
 ² _The Student Qualification represents whether the student is qualified to receive a certificate or not. This element is automatically calculated based on the grade threshold (default value is **70**) of the **"is_qualified()"** function_<br>
 
-### List Adding
+### :arrow_forward: List Adding
 By entering **"2"** in the main menu, you will be able to add a new student to your list.<br>The Program will prompt you for a student name first, and then a grade³.<br>
 If the input format is correct, the CSV file will automatically be updated.<br>
 
 ³ _The grade value must be in the **0-100** range, or the user will be reprompted._
 
-### Generating a Certificate
+### :arrow_forward: Generating a Certificate
 By entering **"3"** in the main menu, you will be able to generate a certificate.<br>
 The complete students list will be printed in the terminal, with the qualified students being printed green, and the unqualified students being printed red. The program will then prompt the user for a student ID.<br>
 
@@ -211,11 +211,11 @@ After this, the certificate will be created in the root folder and a success mes
 ⁴ _The user must insert a valid student ID. Trying to insert a ID that are not in the list, or inputing a out-of-range value, will result in a error and the user will be sent back to the main menu._<br>
 ⁵ _The date can be set in any format the user chooses, as its registered as a **str**._
 
-### Exiting the Program
+### :arrow_forward: Exiting the Program
 By entering **"4"** in the main menu, the program will be terminated.<br>
 Note that you can force-exit the program at any time by typing **CTRL+C** in your terminal.
 
-### Customizing
+### :arrow_forward: Customizing
 This section will cover how you can customize the Certificate Generator to fit your needs.<br>
 
 - On the top of the coding file, you will find two variables. One for the default value for the grading function, and the other for the certificate sample.
@@ -242,25 +242,22 @@ This section will cover how you can customize the Certificate Generator to fit y
 
         certificate.cell(30,234,student,border=0,center="C",align="C")
 
-___
-## Links
-### Project Repository
+## :large_orange_diamond: Links
+### :arrow_forward: Project Repository
 * [Certificate Generator's GitHub Repository](https://github.com/jeanjusten/CS50P_Python-Final-Project)
 
-### Social Links
+### :arrow_forward: Social Links
 * [Jean Justen's Github page](https://github.com/jeanjusten)
 * [Jean Justen's LinkedIn page](https://www.linkedin.com/in/jeanjusten/)
 
-### Libraries Links
+### :arrow_forward: Libraries Links
 * [fpdf2 documentation](https://pypi.org/project/fpdf2/)
 * [Tabulate documentation](https://pypi.org/project/tabulate/)
 * [Rich documentation](https://rich.readthedocs.io/en/stable/introduction.html)
 
-___
-## Etcetera
-### About
+## :large_orange_diamond: Etcetera
+### :arrow_forward: About
 <p>The Certificate Generator is a program made by Jean Justen, and it was made as a final project for "CS50's Introduction with Python" course. The program was developed to put in use the many tools and concepts learned in the CS50P's Introduction to Python 9 weeks' course.<br>
 
-### License
+### :arrow_forward: License
 You may use, copy, share and modify the code as you please. No credits needed.</p>
-___
