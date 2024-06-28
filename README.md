@@ -77,7 +77,7 @@ The purpose of ***spacing()*** is to manage the spacing between outputs and the 
 
 
 - ***plot_certificate***(_student, date_):
-This function takes a student name as its first argument, a date as its second argument and then prints them out in the certificate sample specified. All the styling such as PDF format, orientation, font styling and printing position can be customized by modifying the code in this function. To see more on customization, visit the [4.7 Customizing](#4.7-Customizing) section.
+This function takes a student name as its first argument, a date as its second argument and then prints them out in the certificate sample specified. All the styling such as PDF format, orientation, font styling and printing position can be customized by modifying the code in this function. To see more on customization, visit the [4.7 Customizing](#arrow_forward-customizing) section.
 
 <br>
 
@@ -122,7 +122,7 @@ Used in every printing you see in the program. It gives colors to the main-menu 
 
 ### :arrow_forward: Additional Info
 Although this version of the program outputs a pre-made certificate model **("certificate-sample.png")**, you can add your own certificate design to be outputed instead. The same is true for the grading system, which uses **70** as the grade threshold by default.<br>
-Check out **[4.7 Customizing](#4.7-Customizing)** section for more info on how to customize the code.
+Check out **[4.7 Customizing](#arrow_forward-customizing)** section for more info on how to customize the code.
 
 ## :large_orange_diamond: Video Demo
 View the project in action.
@@ -165,7 +165,7 @@ You can install Rich with the following command in your console:
 You will need a CSV file called **"students_list.txt"** on the root folder. The file could contain student data or be completely empty.<br>
 The last requirement is a PNG sample of the certificate called **"certificate-sample.png"**, which must be on the root folder as well.
 
-Both aditional files are included in the project repository. Check out [Certificate Generator's GitHub Repository]() if you want to download them.
+Both aditional files are included in the project repository. Check out [Certificate Generator's GitHub Repository](https://github.com/jeanjusten/CS50P_Python_Final_Project) if you want to download them.
 
 ## :large_orange_diamond: How to Use
 ### :arrow_forward: Getting Started
