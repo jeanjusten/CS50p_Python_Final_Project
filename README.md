@@ -257,7 +257,7 @@ This section will cover how you can customize the Certificate Generator to fit y
 
 ## :large_orange_diamond: Etcetera
 ### :arrow_forward: About
-<p>The Certificate Generator is a program made by Jean Justen, and it was made as a final project for "CS50's Introduction with Python" course. The program was developed to put in use the many tools and concepts learned in the CS50P's Introduction to Python 9 weeks' course.<br>
+<p>The Certificate Generator is a program developed by Jean Justen, and it was made as a final project for "CS50's Introduction with Python" course. The program's purpose is to put in use the many tools and concepts learned in the CS50P's Introduction to Python 9 weeks' course.<br>
 
 ### :arrow_forward: License
 You may use, copy, share and modify the code as you please. No credits needed.</p>
